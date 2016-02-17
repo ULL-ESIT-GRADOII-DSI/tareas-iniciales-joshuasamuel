@@ -1,8 +1,15 @@
+#### Samuel Ramos Barroso
+#### Escuela Técnica Superior de Ingenieria informática - ULL
+#### Asignatura Desarrollo de Sistemas Informáticos
+
+___
+
 #NodeJS
 
 *NodeJS* es un entorno en tiempo de ejecución multiplataforma,  de código abierto Fue creado con el enfoque de ser útil en la creación de programas de red altamente escalables, como por ejemplo, servidores web.
 
 Para instalar **NodeJS** vamos a la página y descargamos el instalador [NodeJS](https://nodejs.org)
+
 
 ![](images/node1.png)
 
@@ -12,6 +19,7 @@ Node Funcionando correctamente.
 
 ![](images/node3.png)
 
+___
 
 #Express
 
@@ -21,6 +29,8 @@ Para instalar **Express** introduce el siguiente comando en la términal:
 > ` $ npm install express --save `
 
 ![](images/express.png)
+
+___
 
 #Github Desktop
 
@@ -34,12 +44,16 @@ Instalamos la aplicación y nos logeamos en la aplicación.
 
 ![](images/git2.png)
 
+___
+
 #Atom
 Atom es un procesador de texto de código abierto para Mac, Linux y Windows con soporte para aplicaciones escritas en NodeJS, que cinlcuye software de control de versiones, fue desarrollado por GitHub
 
 Para instalar Atom nos vamos a la página y descargamos el instalador [Atom IDE](https://atom.io)
 
 ![](images/atom.png)
+
+___
 
 #Markdown
 
