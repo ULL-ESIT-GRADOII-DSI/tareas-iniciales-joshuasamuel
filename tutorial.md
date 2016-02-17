@@ -5,9 +5,11 @@
 Para instalar **NodeJS** vamos a la página y descargamos el instalador [NodeJS](https://nodejs.org)
 
 ![](images/node1.png)
-Comprobamos que la casilla del npm está habilitada
-![](images/node2.png)
-Node Funcionando correctamente
+
+Comprobamos que la casilla del npm está habilitada.
+
+Node Funcionando correctamente.
+
 ![](images/node3.png)
 
 
