@@ -3,12 +3,23 @@
 #### Asignatura Desarrollo de Sistemas Informáticos
 
 ___
+```
+* NodeJS
+* Express
+* GitHub Desktop
+* Atom
+* Cloud9
+* Markdown
+* Configurar gh-pages
+```
+
+___
 
 #NodeJS
 
 *NodeJS* es un entorno en tiempo de ejecución multiplataforma,  de código abierto Fue creado con el enfoque de ser útil en la creación de programas de red altamente escalables, como por ejemplo, servidores web.
 
-Para instalar **NodeJS** vamos a la página y descargamos el instalador [NodeJS](https://nodejs.org)
+Para instalar **NodeJS** vamos a la página y descargamos el instalador  [NodeJS](https://nodejs.org)
 
 
 ![](images/node1.png)
@@ -55,6 +66,14 @@ Para instalar Atom nos vamos a la página y descargamos el instalador [Atom IDE]
 
 ___
 
+#Cloud9
+
+Es un IDE de desarrollo online, si disponemos de algún proyecto en un repositorio de GitHub podremos asociarlo a Cloud9 para trabajar en él tan solo creando un “nuevo workspace” y añadiendo la url git del correspondiente repositorio.
+![](images/c9.png)
+
+
+___
+
 #Markdown
 
 Markdown es un lenguaje de marcado ligero que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en sus forma de entrada como de salida, inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto plano.
@@ -88,7 +107,36 @@ Listas
 * Lista 1
 * Lista 2
 ```
+___
 
+#Pandoc
+
+Descargamos Pandoc de la siguiente página y lo instalamos [Pandoc](http://pandoc.org/installing.html)
+Introducimos el siguiente comando para realizar la conversión
+
+> `  pandoc index.md -f markdown -t html -s -o index.html ` 
+
+
+___
+
+#gh-pages
+
+**gh-pages** te permite crear páginas para tus proyectos, simplemente creandolas y pusheandolas.
+
+Creamos la rama gh-pages
+
+![](images/create-branch.png)
+
+Creamos el fichero index.html
+
+![](images/hello-world.png)
+
+Ralizamos el commit y pusheamos
+
+![](images/commit-web.png)
+
+
+ 
 
 
 
