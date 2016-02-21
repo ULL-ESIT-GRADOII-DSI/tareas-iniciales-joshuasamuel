@@ -6,8 +6,50 @@
   <meta name="generator" content="pandoc" />
   <title></title>
   <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; }
+code > span.dt { color: #902000; }
+code > span.dv { color: #40a070; }
+code > span.bn { color: #40a070; }
+code > span.fl { color: #40a070; }
+code > span.ch { color: #4070a0; }
+code > span.st { color: #4070a0; }
+code > span.co { color: #60a0b0; font-style: italic; }
+code > span.ot { color: #007020; }
+code > span.al { color: #ff0000; font-weight: bold; }
+code > span.fu { color: #06287e; }
+code > span.er { color: #ff0000; font-weight: bold; }
+</style>
 </head>
 <body>
+<style type='text/css'>
+body{
+color:#fff;
+font-family:Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', serif;
+font-size:12px;
+line-height:1.5em;
+background:#5b5c5c;
+}
+</style>
+</head>
+<body>
+<h4 id="samuel-ramos-barroso">Samuel Ramos Barroso</h4>
+<h4 id="escuela-técnica-superior-de-ingenieria-informática---ull">Escuela Técnica Superior de Ingenieria informática - ULL</h4>
+<h4 id="asignatura-desarrollo-de-sistemas-informáticos">Asignatura Desarrollo de Sistemas Informáticos</h4>
+<hr />
+<pre><code>* NodeJS
+* Express
+* GitHub Desktop
+* Atom
+* Cloud9
+* Markdown
+* Configurar gh-pages</code></pre>
+<hr />
 <h1 id="nodejs">NodeJS</h1>
 <p><em>NodeJS</em> es un entorno en tiempo de ejecución multiplataforma, de código abierto Fue creado con el enfoque de ser útil en la creación de programas de red altamente escalables, como por ejemplo, servidores web.</p>
 <p>Para instalar <strong>NodeJS</strong> vamos a la página y descargamos el instalador <a href="https://nodejs.org">NodeJS</a></p>
@@ -21,6 +63,7 @@
 <img src="images/node3.png" />
 
 </div>
+<hr />
 <h1 id="express">Express</h1>
 <p><em>Express</em> es una infraestructura de aplicaciones web <em>Node.js</em> mínima y flexible que proporciona un conjunto sólido de características para las aplicaciones web y móviles. Para instalar <strong>Express</strong> introduce el siguiente comando en la términal:</p>
 <blockquote>
@@ -30,6 +73,7 @@
 <img src="images/express.png" />
 
 </div>
+<hr />
 <h1 id="github-desktop">Github Desktop</h1>
 <p><em>Github Desktop</em> Es una aplicación de escritorio para usar github en Mac y Windows</p>
 <p>Vamos a la página de Github Desktop y descargamos el instalador <a href="https://desktop.github.com">GitHub Desktop</a></p>
@@ -42,6 +86,7 @@
 <img src="images/git2.png" />
 
 </div>
+<hr />
 <h1 id="atom">Atom</h1>
 <p>Atom es un procesador de texto de código abierto para Mac, Linux y Windows con soporte para aplicaciones escritas en NodeJS, que cinlcuye software de control de versiones, fue desarrollado por GitHub</p>
 <p>Para instalar Atom nos vamos a la página y descargamos el instalador <a href="https://atom.io">Atom IDE</a></p>
@@ -49,6 +94,10 @@
 <img src="images/atom.png" />
 
 </div>
+<hr />
+<h1 id="cloud9">Cloud9</h1>
+<p>Es un IDE de desarrollo online, si disponemos de algún proyecto en un repositorio de GitHub podremos asociarlo a Cloud9 para trabajar en él tan solo creando un “nuevo workspace” y añadiendo la url git del correspondiente repositorio. <img src="images/c9.png" /></p>
+<hr />
 <h1 id="markdown">Markdown</h1>
 <p>Markdown es un lenguaje de marcado ligero que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en sus forma de entrada como de salida, inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto plano.</p>
 <p>Sintaxis:</p>
@@ -71,5 +120,29 @@ Parrafo separar por lineas en blanco
 
 * Lista 1
 * Lista 2</code></pre>
+<hr />
+<h1 id="pandoc">Pandoc</h1>
+<p>Descargamos Pandoc de la siguiente página y lo instalamos <a href="http://pandoc.org/installing.html">Pandoc</a> Introducimos el siguiente comando para realizar la conversión</p>
+<blockquote>
+<p><code>pandoc index.md -f markdown -t html -s -o index.html</code></p>
+</blockquote>
+<hr />
+<h1 id="gh-pages">gh-pages</h1>
+<p><strong>gh-pages</strong> te permite crear páginas para tus proyectos, simplemente creandolas y pusheandolas.</p>
+<p>Creamos la rama gh-pages</p>
+<div class="figure">
+<img src="images/create-branch.png" />
+
+</div>
+<p>Creamos el fichero index.html</p>
+<div class="figure">
+<img src="images/hello-world.png" />
+
+</div>
+<p>Ralizamos el commit y pusheamos</p>
+<div class="figure">
+<img src="images/commit-web.png" />
+
+</div>
 </body>
 </html>
