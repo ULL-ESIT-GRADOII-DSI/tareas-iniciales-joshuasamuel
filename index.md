@@ -1,65 +1,84 @@
-Tutorial NodeJS, Express, Atom, GitHub, Cloud9 y Markdown
-======================================================
+#### Samuel Ramos Barroso
+#### Escuela Técnica Superior de Ingenieria informática - ULL
+#### Asignatura Desarrollo de Sistemas Informáticos
 
-## Instalación de NodeJS en Windows
+___
+```
+* NodeJS
+* Express
+* GitHub Desktop
+* Atom
+* Cloud9
+* Markdown
+* Configurar gh-pages
+```
 
-Es un intérprete **Javascript** del lado del servidor que cambia la noción de cómo debería trabajar un servidor. Su meta es permitir a un programador construir aplicaciones altamente escalables y escribir código que maneje decenas de miles de conexiones simultáneas en una sólo una máquina física.
+___
 
-Para empezar a utilizarlo descargar el paquete de instalación para la plataforma windows y seguir los pasos del asistente de instalación de **NodeJS**.
+#NodeJS
 
-![](images/node.png)
+*NodeJS* es un entorno en tiempo de ejecución multiplataforma,  de código abierto Fue creado con el enfoque de ser útil en la creación de programas de red altamente escalables, como por ejemplo, servidores web.
 
-Abrimos la consola de **NodeJS** y comprobamos que se ha instalado correctamente, aparecerá el siguiente mensaje que indica que se ha instalado.
-
-Instalamos el framework **Express** con la consola de **NodeJS** y el siguiente comando:
-
-**Comando**
-
-> `npm install express --save`
-
-![](images/node2.png)
-
-## Instalación del editor de texto Atom
-
-Usaremos **Atom** como editor de texto para el desarrollo de nuestros proyectos, para ello descargamos el instalador en la página oficial de atom, y a continuación ejecutamos el asistente de instalación.
-
-![](images/atom1.png)
-
-Dado que vamos a utilizar el formato **Markdown** es bueno saber que en **Atom** podremos obtener una preview del contenido de nuestro fichero Markdown ya que incorpora el formato **GitHub Markdown** con el comando:
-
-**Comando**
-
-> * Markdown preview `ctrl+shift+m`
-> * Markdown export to HTML `Save As HTML`
+Para instalar **NodeJS** vamos a la página y descargamos el instalador  [NodeJS](https://nodejs.org)
 
 
+![](images/node1.png)
 
-## Instalación de GitHub Desktop
+Comprobamos que la casilla del npm está habilitada.
 
-GitHub es una plataforma para alojar proyectos utilizando el sistema de control de versiones **Git**. Para instalarlo accedemos a la página oficial de **GitHub** y descargamos el instalador que ejecutaremos posteriormente para iniciar el asistente de instalación.
+Node Funcionando correctamente.
 
-![](images/git.png)
+![](images/node3.png)
 
-Una vez instalado configuramos nuestra cuenta de **GitHub** en la aplicación para poder sincronizar nuestro repositorio tanto local como remoto, en caso de no tener cuenta crearemos una en la página de **GitHub**.
+___
 
-## Cloud 9
+#Express
 
-Es un IDE de desarrollo online, para su uso será necesario crear una cuenta en la página oficial o acceder con las credenciales de GitHub si ya se dispone de una cuenta. Una vez registrados podremos crear proyectos de varias tecnologías como puede ser NodeJS, HTML5, C++, Ruby On Rails, etc.
+*Express* es una infraestructura de aplicaciones web *Node.js* mínima y flexible que proporciona un conjunto sólido de características para las aplicaciones web y móviles.
+Para instalar **Express** introduce el siguiente comando en la términal: 
 
-![](images/cloud.png)
+> ` $ npm install express --save `
 
-Si disponemos de algún proyecto en un repositorio de GitHub podremos asociarlo a **Cloud9** para trabajar en él tan solo creando un “`nuevo workspace`” y añadiendo la url *git* del correspondiente repositorio.
+![](images/express.png)
 
-![](images/cloud2.png)
+___
 
-Además **Cloud9** permite el trabajo en equipo en el IDE añadiendo miembros a tu workspace.
+#Github Desktop
 
-## Markdown
+*Github Desktop* Es una aplicación de escritorio para usar github en Mac y Windows 
 
-Markdown es un lenguaje de marcado ligero, lo vamos a utilizar en el editor de texto Atom ya que incorpora por defecto este formato y podremos obtener un live preview mientras vamos desarrollando además de poder exportarlo a HTML sin la necesidad de usar un conversor adicional.
+Vamos a la página de Github Desktop y descargamos el instalador [GitHub Desktop](https://desktop.github.com)
+
+![](images/git1.png)
+
+Instalamos la aplicación y nos logeamos en la aplicación.
+
+![](images/git2.png)
+
+___
+
+#Atom
+Atom es un procesador de texto de código abierto para Mac, Linux y Windows con soporte para aplicaciones escritas en NodeJS, que cinlcuye software de control de versiones, fue desarrollado por GitHub
+
+Para instalar Atom nos vamos a la página y descargamos el instalador [Atom IDE](https://atom.io)
+
+![](images/atom.png)
+
+___
+
+#Cloud9
+
+Es un IDE de desarrollo online, si disponemos de algún proyecto en un repositorio de GitHub podremos asociarlo a Cloud9 para trabajar en él tan solo creando un “nuevo workspace” y añadiendo la url git del correspondiente repositorio.
+![](images/c9.png)
+
+
+___
+
+#Markdown
+
+Markdown es un lenguaje de marcado ligero que trata de conseguir la máxima legibilidad y facilidad de publicación tanto en sus forma de entrada como de salida, inspirándose en muchas convenciones existentes para marcar mensajes de correo electrónico usando texto plano.
 
 Sintaxis:
-
 
 Encabezados
 ```
@@ -88,14 +107,36 @@ Listas
 * Lista 1
 * Lista 2
 ```
+___
 
-**Recursos:**
+#Pandoc
 
-* [NodeJS](https://nodejs.org)
-* [Express](http://expressjs.com)
-* [Atom IDE](https://atom.io)
-* [GitHub Desktop](https://desktop.github.com)
-* [GitHub Pages](https://pages.github.com/)
-* [Cloud 9 IDE](https://c9.io)
-* [Markdown](http://daringfireball.net/projects/markdown/)
-* [Resultado del Markdown HTML](http://alu0100536652.github.io/Tutorial-STW/)
+Descargamos Pandoc de la siguiente página y lo instalamos [Pandoc](http://pandoc.org/installing.html)
+Introducimos el siguiente comando para realizar la conversión
+
+> `  pandoc index.md -f markdown -t html -s -o index.html ` 
+
+
+___
+
+#gh-pages
+
+**gh-pages** te permite crear páginas para tus proyectos, simplemente creandolas y pusheandolas.
+
+Creamos la rama gh-pages
+
+![](images/create-branch.png)
+
+Creamos el fichero index.html
+
+![](images/hello-world.png)
+
+Ralizamos el commit y pusheamos
+
+![](images/commit-web.png)
+
+
+ 
+
+
+
