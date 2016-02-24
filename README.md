@@ -9,9 +9,9 @@ Configuración de las herramientas y tecnologías a utilizar en la asignatura Si
 * Cloud9
 * Markdown
 
-[Página personal de prácticas](losnen.github.io/)
+[Página personal de prácticas](http://losnen.github.io/)
 
-[Página personal de prácticas](joshuape.github.io/)
+[Página personal de prácticas](http://joshuape.github.io/)
 
 
 [Página de la práctica inicial](http://losnen.github.io/tareas-iniciales-joshuasamuel/)
