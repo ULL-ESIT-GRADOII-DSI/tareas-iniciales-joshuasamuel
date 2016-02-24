@@ -11,7 +11,7 @@ Configuración de las herramientas y tecnologías a utilizar en la asignatura De
 
 
 
-[URL del campus DSI-15-16](https://campusvirtual.ull.es/1516/course/view.php?id=144
+[URL del campus DSI-15-16](https://campusvirtual.ull.es/1516/course/view.php?id=144)
 
 
 [Página personal de prácticas de Samuel](http://losnen.github.io/)
