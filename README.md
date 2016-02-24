@@ -1,6 +1,6 @@
 ## Tarea Inicial
 
-Configuración de las herramientas y tecnologías a utilizar en la asignatura Sistemas y Tecnologías Webs.
+Configuración de las herramientas y tecnologías a utilizar en la asignatura Desarrollo de sistemas informáticos.
 
 * NodeJS
 * Express
@@ -9,12 +9,17 @@ Configuración de las herramientas y tecnologías a utilizar en la asignatura Si
 * Cloud9
 * Markdown
 
-[Página personal de prácticas](http://losnen.github.io/)
-
-[Página personal de prácticas](http://joshuape.github.io/)
 
 
-[Página de la práctica inicial](http://losnen.github.io/tareas-iniciales-joshuasamuel/)
+[URL del campus DSI-15-16](https://campusvirtual.ull.es/1516/course/view.php?id=144
 
-[Página de la práctica inicial](https://joshuape.github.io/tareas-iniciales-joshuasamuel/)
+
+[Página personal de prácticas de Samuel](http://losnen.github.io/)
+
+[Página personal de prácticas de Joshua](http://joshuape.github.io/)
+
+
+[Página de la práctica inicial de Samuel](http://losnen.github.io/tareas-iniciales-joshuasamuel/)
+
+[Página de la práctica inicial de Joshua](https://joshuape.github.io/tareas-iniciales-joshuasamuel/)
 
